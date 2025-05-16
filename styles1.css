@@ -1,0 +1,79 @@
+*
+{
+    box-sizing: border-box;
+}
+h1
+{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.774);
+    color: aliceblue;
+    padding: 10px;
+}
+.row:after 
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+.column
+{
+    float: left;
+    padding: 10px;
+}
+.left
+{
+    width: 40%;
+}
+.middle
+{
+    width: 40%;
+    font-size: 25px;
+}
+.right
+{
+    margin-top: 45px;
+    width: 20%;
+    border:solid lightgray;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 25px;
+}
+.add_to_cart
+{
+    background-color: yellow;
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%
+}
+.buy_now
+{
+    background-color:rgba(210, 153, 30, 0.925);
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%
+}
+.add_to_wish_list
+{
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%
+}
+footer 
+{
+    background-color:rgba(0, 0, 0, 0.774);
+    color:aliceblue;
+    text-align: center;
+    padding: 2px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
